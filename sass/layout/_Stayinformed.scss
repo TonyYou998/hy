@@ -1,0 +1,110 @@
+.brandhub-footer{
+   *{
+    color: rgb(47,55,65);
+   }
+    font-family:sans-serif;
+    background-color: black;
+    .brandhub-section{
+        width: calc(100% - 40px);
+        margin-left:  auto;
+        margin-right: auto;
+        .brandhub-headline-m{
+                font-size: 25px;
+                
+
+        }
+        .brandhub-hr{
+            margin: 30px -1px;
+            height: 1px;
+            border:0;
+            position: relative;
+            border-top: 1px solid rgb(144,144,144);
+
+        }
+        .brandhub-footer-section{
+            
+                .brandhub-footer__left{
+                    
+                    form{
+                        margin: 0 ;
+                        padding-right: 0;
+                        .input{
+                            // position: absolute;
+                            border-radius: 1px;
+                            padding: 5px 1rem;
+                            width: 70%;
+                            
+                            background-color: #2a2a2a;
+                        
+                            // padding:5px 0 ;
+                            input{
+                                
+                                &::placeholder{
+                                    color: white;
+                                    font-style: italic;
+                                }
+                                background-color: #2a2a2a;
+                                width:100%;
+                                border: none;
+                                font-size: 15px;
+                                height: 30px;
+                                border:1px solid #2a2a2a;
+                                color: white;
+                                ::placeholder{
+                                    color: white;
+                                    opacity: 1;
+                                }
+                                &:focus{
+                                    outline: none;
+                                }
+                                font-size: 18px;
+                            
+                            }
+                           
+                        }
+                        button{
+                            padding: 5px 20px;
+                            font-size: 14px;
+                            width: auto;
+                            background: linear-gradient(#242424,#0b0b0b);
+                            text-align: left;
+                            width: 20%;
+                            border: none;
+                            color: rgb(89,119,136);
+                            &:focus{
+                                outline: none;
+                            }
+                        }
+    
+                    }
+                    .privacy{
+                            .privacy_check {
+                                
+                                font-size: 14px;
+                                  .hover{
+                                      color: white;
+                                     
+                                      &:hover{
+                                          color: violet;
+                                      }
+                                  }
+                                
+                            }
+                        }
+                   
+                }
+                .brandhub-footer__right{
+                    
+                    ul{
+                        padding: 0;
+                        li{
+                            list-style: none;
+                            // margin: 0 30px;
+                        }
+                    }
+                }
+            
+          
+        }
+    }
+}
