@@ -96,4 +96,47 @@
 .brandhub-footer .brandhub-section .brandhub-footer-section .brandhub-footer__right ul li {
   list-style: none;
 }
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+footer .footer__container {
+  justify-content: space-around;
+}
+
+footer .footer__container .footer__languages ul li {
+  list-style: none;
+  display: inline;
+}
+
+footer .footer__container .footer__languages ul .footer__split {
+  border-right: 1px solid white;
+  padding-right: 5px;
+}
+
+footer .footer__container .footer__list {
+  width: 70%;
+}
+
+footer .footer__container .footer__list ul {
+  display: flex;
+  justify-content: center;
+}
+
+footer .footer__container .footer__list ul li {
+  color: darkslategray;
+  list-style: none;
+  margin: 0 10px;
+}
+
+footer .footer__container .footer__list ul li:hover {
+  color: #00adef;
+  transition: all .2s;
+}
+
+footer .footer__container .footer__top {
+  color: darkslategray;
+}
 /*# sourceMappingURL=main.css.map */
